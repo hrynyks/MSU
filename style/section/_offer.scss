@@ -1,0 +1,109 @@
+.offer {
+    background: url(./../img/offer-bg.jpg) center/cover no-repeat;
+    padding: 63px 0 94px;
+
+    &__title {
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 65px;
+    }
+
+    &__form {
+        max-width: 794px;
+        margin: 0 auto;
+        display: flex;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    &__label {
+        flex: 1 1 384px;
+        position: relative;
+
+        &-from::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url(./../img/from-to.png);
+            width: 12px;
+            height: 13px;
+        }
+
+        &-to::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url(./../img/from-to.png);
+            width: 12px;
+            height: 13px;
+        }
+
+        &-name::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url(./../img/name.png);
+            width: 15px;
+            height: 15px;
+        }
+
+        &-phone::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url(./../img/phone.png);
+            width: 12px;
+            height: 13px;
+        }
+    }
+
+    &__input {
+        width: 100%;
+        height: 58px;
+        border-radius: 8px;
+        border: none;
+        padding-left: 46px;
+        outline: none;
+        border: 2px solid transparent;
+
+        &:focus {
+            border: 2px solid #07A7EB;
+        }
+
+        &:hover {
+            background: #F1FBFF;
+        }
+
+        &::placeholder {
+            color: #C4C4C4;;
+        }
+    }
+
+    &__texarea {
+        width: 100%;
+        min-height: 124px;
+        border-radius: 8px;
+        resize: none;
+        padding: 17px;
+        &::placeholder {
+            color: #C4C4C4;;
+        }
+
+        &:hover {
+            background: #F1FBFF;
+        }
+    }
+
+    &__btn {
+        padding: 19px 147px;
+        width: 100%;
+    }
+}

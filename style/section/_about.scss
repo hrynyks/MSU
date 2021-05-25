@@ -1,0 +1,55 @@
+.about {
+
+    &__container {
+        background: url(./../../img/about-bg.jpg) center/cover no-repeat;
+        padding: 65px 0 85px;
+    }
+
+    &__content {
+        max-width: 627px;
+        margin: 0 73px 0 auto;
+    }
+
+    &__title {
+        line-height: 48px;
+        margin-bottom: 26px;
+        color: #000000;
+
+
+    }
+
+    &__descr {
+        line-height: 22px;
+        color: #000000;
+        margin-bottom: 20px;
+
+
+        &-bold {
+            font-weight: 700;
+        }
+
+        &:last-of-type {
+            margin-bottom: 40px;
+        }
+    }
+
+    &__btn {
+        padding: 19px 32px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #07A7EB;
+        border: 3px solid #07A7EB;
+        background-color: transparent;
+        @media screen and (max-width: 1300px) {
+            font-size: 16px;
+        }
+
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 600px) {
+            font-size: 12px;
+        }
+    }
+}

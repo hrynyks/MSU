@@ -1,0 +1,51 @@
+.hero {
+    padding: 76px 0 109px;
+    background: url(./../img/hero-bg.jpg) center/cover no-repeat;
+
+    &__title {
+        font-size: 50px;
+        font-weight: 66px;
+        color: #FFFFFF;
+        max-width: 618px;
+        margin-bottom: 44px;
+
+        @media screen and (max-width: 1300px) {
+            font-size: 45px;
+        }
+
+        @media screen and (max-width: 900px) {
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 600px) {
+            font-size: 30px;
+        }
+    }
+
+    &__item {
+        font-size: 24px;
+        color: #FFFFFF;
+        padding-left: 35px;
+        margin-bottom: 32px;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background: url(./../../img/hero-arrow.png);
+            width: 23px;
+            height: 13px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:last-child {
+            margin-bottom: 79px;
+        }
+    }
+
+    &__btn {
+        padding: 19px 60px;
+    }
+}
