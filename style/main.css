@@ -666,7 +666,7 @@ html {
 }
 
 .about__container {
-  background: url(./../../img/about-bg.jpg) center/cover no-repeat;
+  background: url(./../img/about-bg.jpg) center/cover no-repeat;
   padding: 65px 0 85px;
 }
 
