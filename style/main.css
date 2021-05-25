@@ -370,7 +370,7 @@ a {
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.ttf") format("truetype");
+  src: url("./../fonts/Roboto-Regular.woff2") format("woff2"), url("./../fonts/Roboto-Regular.woff") format("woff"), url("./../fonts/Roboto-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -378,7 +378,7 @@ a {
 
 @font-face {
   font-family: 'Roboto';
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.ttf") format("truetype");
+  src: url("./../fonts/Roboto-Bold.woff2") format("woff2"), url("./../fonts/Roboto-Bold.woff") format("woff"), url("./../fonts/Roboto-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -545,7 +545,7 @@ html {
 .hero__item::before {
   content: "";
   position: absolute;
-  background: url(./../../img/hero-arrow.png);
+  background: url(./../img/hero-arrow.png);
   width: 23px;
   height: 13px;
   left: 0;
